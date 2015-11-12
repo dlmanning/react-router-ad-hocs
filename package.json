@@ -17,6 +17,10 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlmanning/react-router-ad-hocs.git"
+  },
   "dependencies": {
     "invariant": "^2.1.2",
     "react-router": "^1.0.0",
