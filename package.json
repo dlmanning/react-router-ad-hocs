@@ -1,6 +1,6 @@
 {
   "name": "react-router-hocs",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Higher-order components that do what react-router's mixins do",
   "main": "index.js",
   "scripts": {
