@@ -29,7 +29,7 @@ const Dashboard = React.createClass({
   }
 })
 
-const Form = connectLifecycle(React.createClass({
+const Form = connectHistory(connectLifecycle(React.createClass({
   getInitialState() {
     return {
       textValue: 'ohai'
@@ -68,7 +68,7 @@ const Form = connectLifecycle(React.createClass({
       </div>
     )
   }
-}))
+})))
 
 render((
   <Router history={history}>
